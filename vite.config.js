@@ -9,7 +9,7 @@ export default defineConfig({
  //The resolve property in Vite lets you define path aliases, like '@' for src, to simplify imports, improve readability, and avoid long relative paths.
   resolve: {
     alias: {
-      '@': Path.resolve(__dirname, '/src'),
+      "@": Path.resolve(__dirname, "./src"),
     },
   },  
 })
