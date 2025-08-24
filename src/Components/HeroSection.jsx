@@ -9,22 +9,23 @@ export const HeroSection = () => {
       <div className="container max-w-4xl mx-auto text-center z-10">
         <div className="space-y-6">
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
-            <span className="opacity-0 animate-fade-in"> Hi, I'm</span>
+            <span className="opacity-0 animate-fade-in" > Hi, I'm </span>
             <span className="text-primary opacity-0 animate-fade-in-delay-1">
               {" "}
-              Pedro
+              Aditya
             </span>
             <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2">
               {" "}
-              Machado
+              Dave
             </span>
           </h1>
 
-          <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            I create stellar web experiences with modern technologies.
-            Specializing in front-end development, I build interfaces that are
-            both beautiful and functional.
-          </p>
+          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in-delay-3 text-lg text-blue-200">
+  I'm an Information Systems Engineering student, blending <strong>web development</strong>, <strong>cloud computing</strong>, and <strong>AI/ML</strong> to craft smart, interactive solutions.  
+  From building dynamic interfaces in Angular and Java to deploying AI-powered projects on AWS, I thrive at turning complex challenges into seamless user experiences.  
+  Recent achievements include <strong>AWS AI Practitioner</strong> and <strong>Google Analytics</strong> certifications, reflecting my commitment to innovation and continuous learning.
+        </p>
+
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
             <a href="#projects" className="cosmic-button">
