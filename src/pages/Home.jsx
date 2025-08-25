@@ -1,4 +1,4 @@
-
+import { AboutSection } from "../Components/AboutSection";
 import { ThemeToggle } from "../Components/ThemeToggle";
 import { StarBackground } from "@/Components/StarBackgroung";
 import { NavBar } from "../Components/NavBar";
@@ -18,6 +18,7 @@ export const Home = () => {
 
       <main>
     <HeroSection />
+    <AboutSection />
 
       </main>
 

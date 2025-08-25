@@ -20,7 +20,7 @@ export const HeroSection = () => {
             </span>
           </h1>
 
-          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in-delay-3 text-lg text-blue-200">
+          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in-delay-3 ">
   I'm an Information Systems Engineering student, blending <strong>web development</strong>, <strong>cloud computing</strong>, and <strong>AI/ML</strong> to craft smart, interactive solutions.  
   From building dynamic interfaces in Angular and Java to deploying AI-powered projects on AWS, I thrive at turning complex challenges into seamless user experiences.  
   Recent achievements include <strong>AWS AI Practitioner</strong> and <strong>Google Analytics</strong> certifications, reflecting my commitment to innovation and continuous learning.
