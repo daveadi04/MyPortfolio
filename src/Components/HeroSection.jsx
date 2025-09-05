@@ -9,6 +9,14 @@ export const HeroSection = () => {
       <div className="container max-w-4xl mx-auto text-center z-10">
         <div className="space-y-6">
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
+          <div className="flex justify-center items-center">
+            <img
+                src="../public/images/GIT-PROFILE.jpg"
+                alt="Aditya Dave"
+                className="w-[200px] h-[200px] md:w-[300px] md:h-[300px] lg:w-[340px] lg:h-[300px] rounded-full object-cover shadow-lg border-purple-500 opacity-0 animate-fade-in-delay-3"
+            />
+            </div>
+
             <span className="opacity-0 animate-fade-in" > Hi, I'm </span>
             <span className="text-primary opacity-0 animate-fade-in-delay-1">
               {" "}
