@@ -8,34 +8,32 @@ export const HeroSection = () => {
     >
       <div className="container max-w-4xl mx-auto text-center z-10">
         <div className="space-y-6">
-          <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
-          <div className="flex justify-center items-center">
+          <div className="flex justify-center items-center mb-6">
             <img
-                src="../public/images/GIT-PROFILE.jpg"
-                alt="Aditya Dave"
-                className="w-[200px] h-[200px] md:w-[300px] md:h-[300px] lg:w-[340px] lg:h-[300px] rounded-full object-cover shadow-lg border-purple-500 opacity-0 animate-fade-in-delay-3"
+              src="/images/GIT-PROFILE.jpg"
+              alt="Aditya Dave"
+              className="w-56 h-56 md:w-80 md:h-80 rounded-full object-cover shadow-lg border-purple-500 border-4"
             />
-            </div>
+          </div>
 
-            <span className="opacity-0 animate-fade-in" > Hi, I'm </span>
-            <span className="text-primary opacity-0 animate-fade-in-delay-1">
-              {" "}
-              Aditya
-            </span>
-            <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2">
-              {" "}
-              Dave
-            </span>
+          <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
+            Hi, I'm
+            <span className="text-primary ml-2"> Aditya </span>
+            <span className="text-gradient ml-2"> Dave </span>
           </h1>
 
-          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in-delay-3 ">
-  I'm an Information Systems Engineering student, blending <strong>web development</strong>, <strong>cloud computing</strong>, and <strong>AI/ML</strong> to craft smart, interactive solutions.  
-  From building dynamic interfaces in Angular and Java to deploying AI-powered projects on AWS, I thrive at turning complex challenges into seamless user experiences.  
-  Recent achievements include <strong>AWS AI Practitioner</strong> and <strong>Google Analytics</strong> certifications, reflecting my commitment to innovation and continuous learning.
-        </p>
+          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
+            I'm an Information Systems Engineering student, blending
+            <strong>web development</strong>, <strong>cloud computing</strong>, and{" "}
+            <strong>AI/ML</strong> to craft smart, interactive solutions. From building
+            dynamic interfaces in Angular and Java to deploying AI-powered projects on
+            AWS, I thrive at turning complex challenges into seamless user experiences.
+            Recent achievements include <strong>AWS AI Practitioner</strong> and{" "}
+            <strong>Google Analytics</strong> certifications, reflecting my commitment to
+            innovation and continuous learning.
+          </p>
 
-
-          <div className="pt-4 opacity-0 animate-fade-in-delay-4">
+          <div className="pt-4">
             <a href="#projects" className="cosmic-button">
               View My Work
             </a>
