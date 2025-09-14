@@ -13,23 +13,13 @@ const projects = [
   },
   {
     id: 2,
-    title: "Application Tracking System",
+    title: "Sugar Cubed Creation",
     description:
-      "Designed in Figma with a focus on intuitive navigation and accessibility. Increased user engagement by 30% and reduced onboarding time by 20%.",
-    image: "/projects/ats.png",
-    tags: ["Figma", "UI/UX", "Prototyping"],
-    demoUrl: "https://www.figma.com/file/...", 
-    githubUrl: "#",
-  },
-  {
-    id: 3,
-    title: "AWS Lab Projects",
-    description:
-      "Hands-on labs with EC2, S3, and CORS policies — optimized cloud costs by 20% through efficient configurations.",
-    image: "/projects/aws-labs.png",
-    tags: ["AWS", "Cloud", "DevOps"],
-    demoUrl: "#", 
-    githubUrl: "#",
+      "Capstone project for Sheridan College (Winter–Fall 2025). A full-stack cookie storefront with admin portal, product & inventory management, square payments, and email notifications. Built with Next.js, Prisma, Supabase, Square, Resend, and Vercel.",
+    image: "../public/images/sugar-cubbed-creation.png",
+    tags: ["Next.js", "TypeScript", "Supabase", "Prisma", "Stripe", "Full Stack"],
+
+    githubUrl: "https://github.com/Yagna3903/sugar-cubed-creation",
   },
 ];
 
@@ -42,15 +32,14 @@ export const Projects = () => {
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          A selection of my academic and personal projects that showcase my
-          skills in software development, UI/UX design, and cloud computing.
+          A selection of my academic and personal projects that showcase my skills in
+          software development, UI/UX design, and cloud computing.
         </p>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 justify-items-center">
           {projects.map((project, key) => (
             <div
               key={key}
-              className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover"
+              className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover max-w-lg w-full"
             >
               <div className="h-48 overflow-hidden bg-secondary/20 flex items-center justify-center">
                 <img

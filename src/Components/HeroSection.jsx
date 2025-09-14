@@ -10,7 +10,7 @@ export const HeroSection = () => {
         <div className="space-y-6">
           <div className="flex justify-center items-center mb-6">
             <img
-              src="/images/GIT-PROFILE.jpg"
+              src="/images/pic.png"
               alt="Aditya Dave"
               className="w-56 h-56 md:w-80 md:h-80 rounded-full object-cover shadow-lg border-purple-500 border-4"
             />
