@@ -6,7 +6,7 @@ const projects = [
     title: "Dev Consultancy Website",
     description:
       "A modern investment and financial consultancy website built with TypeScript + React (TSX). Designed for business clients to explore services, investment opportunities, and financial consultation (on-going).",
-    image: "../public/images/dev-consultancy.png",
+    image: "/images/dev-consultancy.png",
     tags: ["TypeScript", "React", "Business Website"],
     demoUrl: "https://dev-consultancy.vercel.app/",
     githubUrl: "https://github.com/daveadi04/Dev-consultancy/tree/production",
@@ -16,7 +16,7 @@ const projects = [
     title: "Sugar Cubed Creation",
     description:
       "Capstone project for Sheridan College (Winter–Fall 2025). A full-stack cookie storefront with admin portal, product & inventory management, square payments, and email notifications. Built with Next.js, Prisma, Supabase, Square, Resend, and Vercel.",
-    image: "../public/images/sugar-cubbed-creation.png",
+    image: "/images/sugar-cubbed-creation.png",
     tags: ["Next.js", "TypeScript", "Supabase", "Prisma", "Stripe", "Full Stack"],
 
     githubUrl: "https://github.com/Yagna3903/sugar-cubed-creation",
