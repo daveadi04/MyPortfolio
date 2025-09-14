@@ -3,7 +3,7 @@ name: Deploy Portfolio to Firebase Hosting
 on:
   push:
     branches:
-      - main  # deploy on pushes to main branch
+      - main
 
 jobs:
   build_and_deploy:
@@ -18,7 +18,7 @@ jobs:
           node-version: 20
 
       - run: npm install
-      - run: npm run build
+      - run: npm run build   # generates the "build" folder
 
       - name: Deploy to Firebase
         uses: FirebaseExtended/action-hosting-deploy@v0
