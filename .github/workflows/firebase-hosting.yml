@@ -25,8 +25,5 @@ jobs:
         with:
           repoToken: "${{ secrets.GITHUB_TOKEN }}"
           firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT }}"
-          channelId: live
           projectId: aditya-dave
-          # Add this line with the path to the directory containing firebase.json
-          # For most projects, this is the root, but if your firebase.json is in a subfolder, specify it here.
-          target: './'
+          channelId: live
