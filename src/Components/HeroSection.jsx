@@ -23,7 +23,7 @@ export const HeroSection = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
-            I'm an Information Systems Engineering student, blending
+            I'm an Information Systems Engineering student, blending 
             <strong>web development</strong>, <strong>cloud computing</strong>, and{" "}
             <strong>AI/ML</strong> to craft smart, interactive solutions. From building
             dynamic interfaces in Angular and Java to deploying AI-powered projects on
