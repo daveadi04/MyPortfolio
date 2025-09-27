@@ -18,7 +18,7 @@ const projects = [
       "Capstone project for Sheridan College (Winter–Fall 2025). A full-stack cookie storefront with admin portal, product & inventory management, square payments, and email notifications. Built with Next.js, Prisma, Supabase, Square, Resend, and Vercel.",
     image: "/images/sugar-cubbed-creation.png",
     tags: ["Next.js", "TypeScript", "Supabase", "Prisma", "Stripe", "Full Stack"],
-
+      demoUrl: "https://sugar-cubedcreation.vercel.app/",
     githubUrl: "https://github.com/Yagna3903/sugar-cubed-creation",
   },
 ];
