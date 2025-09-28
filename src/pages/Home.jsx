@@ -3,6 +3,7 @@ import { ThemeToggle } from "../Components/ThemeToggle";
 import { StarBackground } from "@/Components/StarBackgroung";
 import { NavBar } from "../Components/NavBar";
 import { HeroSection } from "../Components/HeroSection";
+import Experience from "@/Components/Experience";
 import { Skills } from "../Components/Skills";
 import { Projects } from "../Components/Projects";
 import { ContactSection } from "../Components/ContactSection";
@@ -23,6 +24,7 @@ export const Home = () => {
     <HeroSection />
     <AboutSection />
 <Skills />
+<Experience />
 <Projects />
 <ContactSection />
       </main>
